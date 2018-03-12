@@ -14,8 +14,19 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("Hello World!")
+        testAPI()
+    }
+    
+    func testAPI() {
         let session = URLSession.shared
         let client = GoogleBooksApiClient(session: session)
+        let req = GoogleBooksApi.VolumeRequest.List(query: "Harry Potter")
+        let task: URLSessionTask = client.invoke(
+            req,
+            onSuccess: { volumes in print("\(volumes)")},
+            onError: { error in print("\(error)")}
+        )
+        task.resume()
     }
 
 
