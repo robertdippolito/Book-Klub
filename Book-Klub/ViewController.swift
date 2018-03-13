@@ -8,12 +8,13 @@
 
 import UIKit
 import GoogleBooksApiClient
+import Alamofire
+import AlgoliaSearch
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("Hello World!")
         testAPI()
     }
     
