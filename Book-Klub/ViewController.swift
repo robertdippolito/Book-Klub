@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     func testAPI() {
         let session = URLSession.shared
         let client = GoogleBooksApiClient(session: session)
-        let req = GoogleBooksApi.VolumeRequest.List(query: "Harry Potter")
+        let req = GoogleBooksApi.VolumeRequest.List(query: "Rich Dad, Poor Dad")
         let task: URLSessionTask = client.invoke(
             req,
             onSuccess: { volumes in print("\(volumes)")},

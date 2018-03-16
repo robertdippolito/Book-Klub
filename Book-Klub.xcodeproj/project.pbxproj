@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AD2BEF074ABFD72B676B4AB4 /* Pods_Book_Klub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 740C21FAFB43D9797E39532F /* Pods_Book_Klub.framework */; };
+		E153520520577AB900EF7BEA /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E153520420577AB900EF7BEA /* BookModel.swift */; };
 		E1F516C72056025400B7FB21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F516C62056025400B7FB21 /* AppDelegate.swift */; };
 		E1F516C92056025400B7FB21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F516C82056025400B7FB21 /* ViewController.swift */; };
 		E1F516CC2056025400B7FB21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1F516CA2056025400B7FB21 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 		3773D5697335026C611BEF62 /* Pods-Book-Klub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Book-Klub.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Book-Klub/Pods-Book-Klub.debug.xcconfig"; sourceTree = "<group>"; };
 		65E60DC2EF4DCBE3D7ED61CC /* Pods-Book-Klub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Book-Klub.release.xcconfig"; path = "Pods/Target Support Files/Pods-Book-Klub/Pods-Book-Klub.release.xcconfig"; sourceTree = "<group>"; };
 		740C21FAFB43D9797E39532F /* Pods_Book_Klub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Book_Klub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E153520420577AB900EF7BEA /* BookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
 		E1F516C32056025400B7FB21 /* Book-Klub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Book-Klub.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1F516C62056025400B7FB21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1F516C82056025400B7FB21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				E1F516C82056025400B7FB21 /* ViewController.swift */,
+				E153520420577AB900EF7BEA /* BookModel.swift */,
 				E1F516CA2056025400B7FB21 /* Main.storyboard */,
 				E1F516D52056025400B7FB21 /* Info.plist */,
 				E1F516CD2056025400B7FB21 /* Book_Klub.xcdatamodeld */,
@@ -321,6 +324,7 @@
 			files = (
 				E1F516C92056025400B7FB21 /* ViewController.swift in Sources */,
 				E1F516CF2056025400B7FB21 /* Book_Klub.xcdatamodeld in Sources */,
+				E153520520577AB900EF7BEA /* BookModel.swift in Sources */,
 				E1F516C72056025400B7FB21 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
